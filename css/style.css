@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right top, #1e2127, #5d5f63);
+  color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  text-align: center;
+  margin: 36px 64px;
+}
+
+.judul {
+  margin: 6px 0px;
+}
+
+.tagline {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.container {
+  justify-content: center;
+  margin: 32px 64px;
+}
+
+.main {
+  gap: 32px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.card-left {
+  background-color: rgb(71 85 105);
+  width: 40%;
+  text-align: center;
+  padding: 20px 32px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.card-left h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.card-right {
+  background-color: rgb(71 85 105);
+  width: 40%;
+  text-align: center;
+  padding: 20px 32px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.card-right h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.navbutton {
+  display: flex;
+  height: auto;
+  width: 10%;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+}
+
+button {
+  border-width: 0;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+#convert {
+  color: white;
+  background-color: rgb(19, 123, 226);
+  font-weight: 600;
+}
+
+#reset {
+  background-color: rgb(252, 53, 53);
+  box-shadow: none;
+  font-weight: 600;
+  color: white;
+}
+
+#reset:hover {
+  background-color: red;
+  color: white;
+}
+
+input {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(203 213 225);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  color: #1e2127;
+  border-radius: 12px;
+  border-color: transparent;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.explanation {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.explanation h1 {
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
+.explanation .formula {
+  margin: 20px auto;
+  color: #1e2127;
+  text-align: center;
+  font-size: 20px;
+  min-height: 70px;
+  width: 400px;
+  padding: 20px 0;
+  background-color: rgb(203 213 225);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.cara-konversi {
+  margin: 30px 0;
+}
+
+.cara-konversi h1 {
+  margin: 15px 0;
+}
+
+.cara-konversi p {
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
